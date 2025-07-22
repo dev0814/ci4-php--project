@@ -1,0 +1,9 @@
+/vendor/
+writable/cache/
+writable/logs/
+.env
+.env.*
+*.sqlite
+.idea/
+.DS_Store
+node_modules/
