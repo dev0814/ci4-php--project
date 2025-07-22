@@ -20,7 +20,7 @@ class App extends BaseConfig
 
     public function __construct()
         {
-            $this->baseURL = getenv('app.baseURL') ?: 'http://localhost:8080/';
+            $this->baseURL = getenv('app_baseURL') ?: 'http://localhost:8080/';
         }
 
     /**
